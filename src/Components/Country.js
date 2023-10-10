@@ -18,6 +18,7 @@ export default function Country() {
     <div> {
             country.map((val)=>{
               return (<div>
+                <h1></h1>
                 <h1>{val.capital}</h1>
                 <img src={val.flags.png}/>
                 </div>)
